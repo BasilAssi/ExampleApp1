@@ -18,6 +18,7 @@ public class MainActivity extends  AppCompatActivity {
         setContentView(R.layout.activity_main); //R connect btw java and xml
         edtName=findViewById(R.id.edtName);
         edtpass=findViewById(R.id.editTextTextPassword);
+        //this is test comment for github
     }
    public void btnSumbitOnClick(View view){
     String name = edtName.getText().toString();
